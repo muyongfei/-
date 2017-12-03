@@ -2,7 +2,7 @@
 * @Author: cat
 * @Date:   2017-11-07 20:54:05
 * @Last Modified by:   cat
-* @Last Modified time: 2017-12-02 12:02:21
+* @Last Modified time: 2017-12-03 19:45:20
 */
 @import url('base.css');
 body,h1,h2,h3,h4,h5,h6,input,ul,li{
@@ -906,6 +906,11 @@ img{
 	margin-left: 0;
 	margin-top: 10px;
 } 
+.banner .banner1 .bncenter .xban a,.banner .banner1 .bncenter .xban a  img{
+	display: block;
+	height: 100%;
+	height: 100%;
+}
 .banner .banner1 .bncenter .xban:nth-child(2){
 	float: right;
 }
@@ -1245,6 +1250,11 @@ img{
 	width: 1000px;
 	height: 585px;
 	float: left;
+}
+.hui2 .huichang .hch a,.hui2 .huichang .hch a  img{
+	display: block;
+	height: 100%;
+	height: 100%;
 }
 .hui2 .huichang .hch .hch1{
 	width: 190px;
@@ -2484,6 +2494,11 @@ img{
 	margin-top: 7px;
 	border-right: 1px solid #dedfe0;
 	float: left;
+}
+.jiqi .electric .ele-ct .elec_bottom .elecb_son a,.jiqi .electric .ele-ct .elec_bottom .elecb_son  a  img{
+	display: block;
+	height: 100%;
+	width: 100%;
 }
 .jiqi .electric .ele-ct .elec_bottom .elecb_son:hover img{
 	opacity: 0.8;
