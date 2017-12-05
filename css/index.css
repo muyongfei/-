@@ -2,7 +2,7 @@
 * @Author: cat
 * @Date:   2017-11-07 20:54:05
 * @Last Modified by:   cat
-* @Last Modified time: 2017-12-03 19:45:20
+* @Last Modified time: 2017-12-04 15:23:27
 */
 @import url('base.css');
 body,h1,h2,h3,h4,h5,h6,input,ul,li{
@@ -585,6 +585,9 @@ img{
 	padding: 16px 0;
 	background: #6E6568;
 	float: left;
+	position: relative;
+	top: 0;
+	left: 0;
 }
 .banner .banner1 .bnleft ul li{
 	width: 190px;
@@ -595,9 +598,142 @@ img{
 	font-size: 14px;
 	line-height: 28px;
 	color: #fff;
+	
+}
+.bnleft .xuan{
+	width: 1000px;
+	min-height: 480px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	background: #F7F7F7;
+	position: absolute;
+	top: 0;
+	left: 190px;
+	z-index: 5;
+	box-shadow: 3px 0 5px  0  rgba(0, 0, 0, .3);
+	display: none;
+}
+.bnleft .xuan .x-top{
+	width: 800px;
+	height: 24px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+.x-t-con{
+	width: auto;
+	height: 100%;
+	float: left;
+	margin-right: 10px;
+}
+.x-t-con .xtc-a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	padding: 0 10px;
+	box-sizing: border-box;
+	background: #6E6568;
+	line-height: 24px;
+	color: #F4F3F3;
+}
+.xuan .x-top .x-t-con .xtc-a:hover{
+	background: #5C5251;
+	color: #fff;
+}
+.x-con{
+	width: 800px;
+	height: auto;
+	padding: 10px 0 0 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+	float: left;
+}
+.x-con .x-c-con{
+	width: 100%;
+	height: 37px;
+	float: left;
+}
+.x-con .xcc-title{
+	width: 80px;
+	height: 100%;
+	float: left;
+}
+.x-con .x-c-con .xcc-title  .xcct-a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	color: #666;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 37px;
+}
+.x-con  .xcc-con{
+	float: left;
+	width: 700px;
+	height: 100%;
+	background: #F7F7F7;
+	padding: 6px 0;
+	border-bottom: 1px solid #e0e0e0;
+	box-sizing: border-box;
+
+}
+.x-con .x-c-con:last-child .xcc-con{
+	border: 0;
+}
+.x-con .x-c-con .xcc-con  .xccc-a{
+	width: auto;
+	height: 100%;
+	/* margin: 8px 0; */
+	padding: 0 10px;
+    border-left: 1px solid #e0e0e0;
+    line-height: 24px;
+    box-sizing: border-box;
+    color: #ccc;
+    font-size: 14px;
+    float: left;
+}
+.x-right{
+	width: 198px;
+	height: 423px;
+	float: right;
+}
+.x-r-small{
+	width: 168px;
+	height: 143px;
+	margin: 0 15px;
+}
+.x-r-small   .xrs-a{
+	width: 83px;
+	height: 35px;
+	display: block;
+	float: left;
+	margin-bottom: 1px;
+	margin-right: 1px;
+}
+.x-r-small   .xrs-a   img{
+    width: 83px;
+	height: 35px;
+}
+.x-r-big{
+	width: 168px;
+	height: 134px;
+	margin: 0 15px;
+}
+.x-r-big:nth-child(2){
+	margin-top: 10px;
+	margin-bottom: 1px;
+}
+.x-r-big  a{
+	display: block;
+	width: 100%;
+	height: 100%;
 }
 .banner .banner1 .bnleft ul li:hover{
 	background: #999395;
+}
+.banner .banner1 .bnleft ul li:hover  .xuan{
+	display: block;
 }
 .banner .banner1 .bnleft ul li span{
 	font-size: 12px;
@@ -906,11 +1042,6 @@ img{
 	margin-left: 0;
 	margin-top: 10px;
 } 
-.banner .banner1 .bncenter .xban a,.banner .banner1 .bncenter .xban a  img{
-	display: block;
-	height: 100%;
-	height: 100%;
-}
 .banner .banner1 .bncenter .xban:nth-child(2){
 	float: right;
 }
@@ -1250,11 +1381,6 @@ img{
 	width: 1000px;
 	height: 585px;
 	float: left;
-}
-.hui2 .huichang .hch a,.hui2 .huichang .hch a  img{
-	display: block;
-	height: 100%;
-	height: 100%;
 }
 .hui2 .huichang .hch .hch1{
 	width: 190px;
@@ -2495,11 +2621,6 @@ img{
 	border-right: 1px solid #dedfe0;
 	float: left;
 }
-.jiqi .electric .ele-ct .elec_bottom .elecb_son a,.jiqi .electric .ele-ct .elec_bottom .elecb_son  a  img{
-	display: block;
-	height: 100%;
-	width: 100%;
-}
 .jiqi .electric .ele-ct .elec_bottom .elecb_son:hover img{
 	opacity: 0.8;
 }
@@ -3181,4 +3302,15 @@ img{
 .bttom .bottom3 .vb0ttom2{
 	background-image: url('../img/ico_footer.png');
 	background-position: -104px -217px;
+}
+/* 楼层 */
+.louceng{
+	width: 34px;
+	height: 490px;
+	background: red;
+	position: fixed;
+	top: 0;
+	left: 80px;
+	bottom: 0;
+	margin: auto 0;
 }
